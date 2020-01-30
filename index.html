@@ -1,78 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="shortcut icon" href="favicon.ico">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie-edge">
-        <title>Google</title>
-        <link rel="stylesheet" href="main.css">  
-        
-        <link
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-        crossorigin="anonymous"
-        >
-    </head>
-    <body>
-        <ul class="top-navigation">
-            <li>
-            <a href="https://www.google.com/">Kiara</a>
-            </li>
-            <li>
-                <a href="https://mail.google.com/mail/?tab=wm">Mail</a>"
-            </li>
-            <li>
-                <a href="https://www.google.com/imghp?hl=en&tab=wi&ei=jtezVc6XNcq2ed_doeAL&ved=0CBQQqi4oAQ">Images</a>
-            </li>
-            <li>
-                <div class="fa fa-th"></div>
-            </li>
-            <li>
-                <div class="fa fa-bell-o"></div>
-            </li>
-            <li>
-                <span class="share-button">Share</span>
-            </li>
-            <li> 
-                <img profile-img" src="">
-            </li>
-            <ul>
-            <div class="search-box">
-                <img src="google.png" alt="Google" class="center" height="150px" width="300">
-                <input type="text" autofocus placeholder="Search Google or type a URL">
-                <div class="search-buttons">
-                <button>Google Search</button>  
-                <button>I'm Feeling Lucky</button>
-                </div>
-            </div>
-            <div class="bottom-site-links">
-                <ul class="left-site-links">
-                  <li>
-                    <a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a>
-                  </li>  
-                  <li>
-                    <a href="https://www.google.com/services/?fg=1">Business</a>
-                  </li>
-                  <li>
-                    <a href="https://www.google.com/intl/en/about.html?fg=1">About</a>
-                  </li>
-                </ul>
-                <ul class="right-site-links">
-                    <li>
-                        <a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a>
-                    </li>
-                    <li>
-                        <a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a>
-                    </li>
-                    <li>
-                        <a href="https://www.google.com/preferences?hl=en">Settings</a>
-                    </li>
-                   </ul>
-                 </div>
-               </body>
-               </html>
-        
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    >
+  <title>Google</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Store</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Gmail</a></li>        
+        <li><a href="#">Images</a></li>
+        <li><i class="fas fa-th"></i></li>
+        <li><img src="me.jpg" alt="profile-pic" id="profile"></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>
+        <span class="blue">G</span>
+        <span class="red">o</span>
+        <span class="yellow">o</span>
+        <span class="blue">g</span>
+        <span class="green">l</span>
+        <span class="red">e</span>
+      </h1>
+      <form action="https://www.google.com/search" method="GET">
+      <input type="text" name="q" autocomplete="off" autofocus>
+      <div id="buttons">
+        <button type="submit">Google Search</button>
+        <a href="https://www.google.com/search?q=lucky">
+            <button type="button">I'm Feeling Lucky</button>
+        </a>
+    </div>
+    </form>
+    <footer>
+        <nav>
+          <ul>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </nav>
+        </footer>
+      </main>
+ </body>
+</html>
     
     
